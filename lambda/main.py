@@ -4,7 +4,7 @@ import json  # Import JSON module to format response correctly
 def handler(event, context):
     version = os.environ.get("VERSION", "1.0.0")
     response_body = {
-        "message": "Hello Abhinav Cloud Co-op 🌍",  # Use a valid Unicode emoji
+        "message": "Hello Abhinav Cloud Co-op 🌍",  #  a valid Unicode emoji
         "version": version
     }
     
